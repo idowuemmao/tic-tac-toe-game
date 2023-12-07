@@ -62,6 +62,7 @@ const Board = () => {
   }, [squares]);
   return (
     <div className="flex flex-col items-center gap-2 text-white font-bold">
+      <h2 className="text-lg md:text-3xl mb-4">TIC-TAC-TOE GAME</h2>
       {!winner && <p>Hey {currentPlayer}, it's your turn</p>}
       {winner && winner !== "BOTH" && <p>Congratulations {winner}</p>}
       {winner && winner === "BOTH" && (

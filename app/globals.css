@@ -11,3 +11,6 @@
 .square_x {
   @apply bg-red-500 text-white;
 }
+p {
+  @apply text-sm md:text-lg font-normal;
+}
